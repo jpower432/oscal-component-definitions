@@ -1,0 +1,70 @@
+rule-info:
+  - name: example_rule_1
+    description: My rule description for example rule 1
+    parameters:
+      - name: prm_1
+        description: prm_1 description
+        alternative_values: {'default': '5%', '5pc': '5%', '10pc': '10%', '15pc': '15%', '20pc': '20%'}
+        default_vaLue: '5%'
+    profiles:
+      - description: FedRAMP Rev 5 High Baseline
+        href: profiles/fedramp_rev5_high/profile.json
+        include-controls:
+            controls:
+              - name: ac-1  
+  - name: example_rule_2
+    description: My rule description for example rule 2
+    profiles:
+      - description: FedRAMP Rev 5 High Baseline
+        href: profiles/fedramp_rev5_high/profile.json
+        include-controls:
+          - controls:
+              - name: ac-1  
+            parameters:
+              - name: something
+                value: something else
+  - name: example_rule_3
+    description: My rule description for example rule 3
+    profiles:
+      - description: FedRAMP Rev 5 High Baseline
+        href: profiles/fedramp_rev5_high/profile.json
+        include-controls:
+          - controls:
+              - name: ac-1  
+            parameters:
+              - name: something
+                value: something else
+  - name: example_rule_4
+    description: My rule description for example rule 4
+    profiles:
+      - description: FedRAMP Rev 5 High Baseline
+        href: profiles/fedramp_rev5_high/profile.json
+        include-controls:
+          - controls:
+              - name: ac-1  
+            parameters:
+              - name: something
+                value: something else
+  - name: example_rule_5
+    description: My rule description for example rule 5
+    profiles:
+      - description: FedRAMP Rev 5 High Baseline
+        href: profiles/fedramp_rev5_high/profile.json
+        include-controls:
+          - controls:
+              - name: ac-1  
+            parameters:
+              - name: something
+                value: something else
+  - name: example_rule_6
+    description: My rule description for example rule 6
+    profiles:
+      - description: FedRAMP Rev 5 High Baseline
+        href: profiles/fedramp_rev5_high/profile.json
+        include-controls:
+          - controls:
+              - name: ac-1  
+            parameters:
+              - name: something
+                value: something else
+  

@@ -1,0 +1,4 @@
+x-trestle-component-info:
+    name: Example
+    type: service
+    description: My example component

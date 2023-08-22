@@ -1,5 +1,0 @@
-# Rules Approach
-
-## Constraints
-
-## Consideration
