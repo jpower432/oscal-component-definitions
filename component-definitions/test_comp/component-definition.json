@@ -3,7 +3,7 @@
     "uuid": "2ddf8023-6efc-4fac-b439-d1cf666929c4",
     "metadata": {
       "title": "REPLACE_ME",
-      "last-modified": "2023-09-01T19:05:27.301545+00:00",
+      "last-modified": "2023-09-01T19:21:12.974107+00:00",
       "version": "REPLACE_ME",
       "oscal-version": "1.0.4"
     },
@@ -22,22 +22,46 @@
               {
                 "uuid": "59e7bb12-1e7b-4256-8579-59dfead47ea0",
                 "control-id": "ac-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9cb187b9-6c68-4e32-83c3-a5557ae8d5c2",
                 "control-id": "ac-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "0c24f3e1-42dc-4fc9-8bbe-6d5deed35bba",
                 "control-id": "ac-4.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f6f712ce-2275-4984-a4fc-70699127c5a2",
                 "control-id": "sc-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               }
             ]
           }
