@@ -1,6 +1,8 @@
 name: Transform Rules 
 on:
   push:
+    branches:
+      - '!main'
     paths:
       - 'rules/**'
 
@@ -18,3 +20,5 @@ jobs:
         with:
           rules_view_path: "rules/"
           file_pattern: "*.json,rules/*"
+          commit_user_name: "trestle-bot[bot]"
+          commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
