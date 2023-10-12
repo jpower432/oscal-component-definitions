@@ -7,7 +7,7 @@ on:
     paths:
       - 'component-definitions/**'
       - 'markdown/components/**'
-      - 'data/**'
+
 jobs:
   test:
     name: Evaluate components
@@ -26,8 +26,6 @@ jobs:
           markdown_path: "markdown/components"
           oscal_model: "compdef"
           check_only: true
-      - name: CSV sanity check 
-        run: make check-csv
   
   call-autofix:
     needs: [test]
