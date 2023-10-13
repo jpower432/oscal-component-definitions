@@ -1,6 +1,6 @@
 x-trestle-rule-info:
   name: Test-rule_001
-  description: Ensure all of the services are running these tests
+  description: Ensure all of the services are running these tests always
   parameter:
     name: prm_1
     description: prm_1 description
