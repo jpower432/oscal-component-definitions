@@ -1,18 +1,18 @@
 {
   "component-definition": {
-    "uuid": "86378b1f-7ba6-4cac-bdd4-3b52b13f5132",
+    "uuid": "c9df55db-921c-4706-97f9-2a2ffdfaaa52",
     "metadata": {
       "title": "Component definition for example",
-      "last-modified": "2023-10-13T14:07:08.049847+00:00",
+      "last-modified": "2023-10-17T23:35:56+00:00",
       "version": "1.0",
       "oscal-version": "1.0.4"
     },
     "components": [
       {
-        "uuid": "5752e82b-8d71-4d35-898c-e8aa5c474ed7",
+        "uuid": "b7c9c95a-8105-4960-a539-b42659152de9",
         "type": "service",
         "title": "Example",
-        "description": "Example Application",
+        "description": "Example Application again",
         "props": [
           {
             "name": "Rule_Id",
@@ -47,7 +47,7 @@
         ],
         "control-implementations": [
           {
-            "uuid": "95f1cd02-e507-44b7-9ef7-22c5b4c557ad",
+            "uuid": "3db60df2-6910-4fe7-8ba4-44639ec776fc",
             "source": "profiles/fedramp_rev5_high/profile.json",
             "description": "FedRAMP REV5 High Baseline",
             "set-parameters": [
@@ -60,7 +60,7 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "ae9abfdf-ac4a-4dcb-bf53-ca91e3b86971",
+                "uuid": "e657c9a1-7f13-49f9-90ec-1d7ffb57365f",
                 "control-id": "ac-1",
                 "description": "",
                 "props": [
@@ -68,10 +68,6 @@
                     "name": "Rule_Id",
                     "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
                     "value": "Test-rule_001"
-                  },
-                  {
-                    "name": "implementation-status",
-                    "value": "planned"
                   }
                 ]
               }
