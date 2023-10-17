@@ -13,5 +13,5 @@ x-trestle-rule-info:
       - id: ac-1
 x-trestle-component-info:
   name: Example
-  description: Example Application
+  description: Example Application again
   type: service
