@@ -6,7 +6,7 @@ x-trestle-rule-info:
   description: Rule for ac-1
   name: rule-ac-1
   profile:
-    description: FedRAMP Rev 5 High Baseline
+    description: FedRAMP Rev 5 High Baseline test
     href: trestle://profiles/fedramp_rev5_high/profile.json
     include-controls:
     - id: ac-1
