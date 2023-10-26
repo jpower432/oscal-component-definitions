@@ -1,15 +1,15 @@
 {
   "component-definition": {
-    "uuid": "370adce6-2703-496b-85ca-392bf04ef268",
+    "uuid": "67af7054-3207-49ea-b8a5-30bb144934d5",
     "metadata": {
       "title": "Component definition for test_comp",
-      "last-modified": "2023-10-26T20:38:26+00:00",
+      "last-modified": "2023-10-26T20:54:53+00:00",
       "version": "1.0",
       "oscal-version": "1.0.4"
     },
     "components": [
       {
-        "uuid": "1f059a93-0486-4225-9444-0081c1227cd9",
+        "uuid": "aafbb464-f53f-44b7-a51b-f94dd2776a17",
         "type": "service",
         "title": "My Comp",
         "description": "My testing comp",
@@ -245,12 +245,12 @@
         ],
         "control-implementations": [
           {
-            "uuid": "84b435d3-23e7-4902-9deb-e14ecddade1f",
+            "uuid": "df2183f8-fa7f-4a77-a479-3140a0db47ef",
             "source": "trestle://profiles/fedramp_rev5_high/profile.json",
             "description": "FedRAMP Rev 5 High Baseline",
             "implemented-requirements": [
               {
-                "uuid": "a9fcba38-9347-41fe-bbf9-7c8fb3262471",
+                "uuid": "03a0257f-a51f-49f6-b0ae-ea91c6b2126f",
                 "control-id": "si-3",
                 "description": "",
                 "props": [
@@ -262,7 +262,7 @@
                 ]
               },
               {
-                "uuid": "3b2e0b7f-1997-46bc-a9cf-4bfe55228f47",
+                "uuid": "2b2eda8c-ee71-4e05-a18c-dbe54f1af98b",
                 "control-id": "si-4",
                 "description": "",
                 "props": [
@@ -274,7 +274,7 @@
                 ]
               },
               {
-                "uuid": "71eef57f-7698-4c89-a27a-a898c8779cc8",
+                "uuid": "45afa45a-6615-4c10-bc47-0d66d2b1b6e3",
                 "control-id": "au-3",
                 "description": "",
                 "props": [
@@ -286,7 +286,7 @@
                 ]
               },
               {
-                "uuid": "710f86c5-e0f6-4dd7-aa89-af13648bd73e",
+                "uuid": "d4ce69a9-d57c-4d70-abe3-facd8efed5e6",
                 "control-id": "si-2",
                 "description": "",
                 "props": [
@@ -298,7 +298,7 @@
                 ]
               },
               {
-                "uuid": "ac7614a2-865e-4580-ab8f-68387577fef5",
+                "uuid": "87bea296-8502-4c9d-ac2e-6a563d827083",
                 "control-id": "ac-3",
                 "description": "",
                 "props": [
@@ -310,7 +310,7 @@
                 ]
               },
               {
-                "uuid": "7e59a86a-744c-4e12-b73d-76a8a0981807",
+                "uuid": "e6adb496-cc3d-4dc8-a374-e083cec35907",
                 "control-id": "ia-2",
                 "description": "",
                 "props": [
@@ -322,7 +322,7 @@
                 ]
               },
               {
-                "uuid": "3bda364d-2fcb-486d-9f27-77b64f44b7ce",
+                "uuid": "513de2c1-8e02-42e8-a5cd-ddbfcd8d37b3",
                 "control-id": "cm-6",
                 "description": "",
                 "props": [
@@ -334,7 +334,7 @@
                 ]
               },
               {
-                "uuid": "8abbc6d0-99c0-44b9-ba66-e0d65ebe9b8a",
+                "uuid": "74acb80e-a260-473f-8039-8a592df82cdb",
                 "control-id": "sc-7",
                 "description": "",
                 "props": [
@@ -346,7 +346,7 @@
                 ]
               },
               {
-                "uuid": "8819101d-47d4-416c-9146-0abb54986f6a",
+                "uuid": "11a36f4d-b19b-4262-87f3-700e52cee090",
                 "control-id": "au-2",
                 "description": "",
                 "props": [
@@ -358,7 +358,7 @@
                 ]
               },
               {
-                "uuid": "b0f69a15-79da-41c3-9ed0-ea987b69cb4e",
+                "uuid": "c886f33e-1ecd-4f80-b630-aa1295a879d0",
                 "control-id": "cm-8",
                 "description": "",
                 "props": [
@@ -370,7 +370,7 @@
                 ]
               },
               {
-                "uuid": "3a7f3ff7-95f4-4431-85f8-009f65191351",
+                "uuid": "4f492b67-de08-4c8e-951e-8df56313e884",
                 "control-id": "ac-2",
                 "description": "",
                 "props": [
@@ -382,7 +382,7 @@
                 ]
               },
               {
-                "uuid": "a7c2f001-e5bd-45b0-b0cb-c3e3469726e3",
+                "uuid": "c812f246-e5d2-4c9a-a696-3ddb4991f3c4",
                 "control-id": "ac-4",
                 "description": "",
                 "props": [
@@ -394,19 +394,7 @@
                 ]
               },
               {
-                "uuid": "391eeb2e-74a1-4622-a772-c4c6b8add5ae",
-                "control-id": "ac-1",
-                "description": "",
-                "props": [
-                  {
-                    "name": "Rule_Id",
-                    "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
-                    "value": "rule-ac-1"
-                  }
-                ]
-              },
-              {
-                "uuid": "32851fe7-f99d-43da-a778-1ea2f5eff55c",
+                "uuid": "941d6a65-9952-4b2d-90c6-c6301e498afa",
                 "control-id": "sc-5",
                 "description": "",
                 "props": [
@@ -418,7 +406,7 @@
                 ]
               },
               {
-                "uuid": "2c35431e-4032-480c-ad71-0210b753aaa2",
+                "uuid": "de430f23-dcee-4f7b-8a90-c5f0220b1b00",
                 "control-id": "ia-4",
                 "description": "",
                 "props": [
@@ -430,7 +418,7 @@
                 ]
               },
               {
-                "uuid": "de680914-4ac9-4da5-9365-a80278906e5f",
+                "uuid": "0bd4e8a7-369e-4e3e-83bd-9344c5b97bfa",
                 "control-id": "cm-7",
                 "description": "",
                 "props": [
@@ -442,7 +430,7 @@
                 ]
               },
               {
-                "uuid": "e26334f8-4094-49a5-b9fa-dcd54b390239",
+                "uuid": "5d9837ef-aa2a-461e-8bec-18684620528a",
                 "control-id": "sc-8",
                 "description": "",
                 "props": [
@@ -454,7 +442,7 @@
                 ]
               },
               {
-                "uuid": "c22aa9c5-3d19-4302-a7e8-b3cf70be1a1b",
+                "uuid": "e64c2cab-2994-4958-9084-1ca38a39567a",
                 "control-id": "ac-6",
                 "description": "",
                 "props": [
@@ -466,7 +454,7 @@
                 ]
               },
               {
-                "uuid": "66ff7d43-6b19-4553-a778-b379a12dbfb2",
+                "uuid": "54f8b9e0-bbef-406d-88f3-a13c689d3171",
                 "control-id": "ia-3",
                 "description": "",
                 "props": [
@@ -474,6 +462,25 @@
                     "name": "Rule_Id",
                     "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
                     "value": "rule-ia-3"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "uuid": "a801b351-fa56-4931-ab63-72052f5ed728",
+            "source": "trestle://profiles/fedramp_rev5_high/profile.json",
+            "description": "FedRAMP Rev 5 High Baseline test",
+            "implemented-requirements": [
+              {
+                "uuid": "edd6edd9-d4d6-4eeb-b6e6-6d38ef031220",
+                "control-id": "ac-1",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
+                    "value": "rule-ac-1"
                   }
                 ]
               }
