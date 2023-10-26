@@ -3,7 +3,7 @@
     "uuid": "1af4a5ae-f3f6-4e57-b0d9-83efa1ea05ad",
     "metadata": {
       "title": "Component definition for example",
-      "last-modified": "2023-10-26T20:54:53+00:00",
+      "last-modified": "2023-10-26T21:10:24.619274+00:00",
       "version": "1.0",
       "oscal-version": "1.0.4"
     },
@@ -68,6 +68,10 @@
                     "name": "Rule_Id",
                     "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
                     "value": "Test-rule_001"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
                   }
                 ]
               }
