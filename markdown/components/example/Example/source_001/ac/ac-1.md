@@ -112,6 +112,8 @@ ______________________________________________________________________
 
 <!-- Add control implementation description here for control: ac-1 -->
 
+Example implementation response
+
 ### Rules:
 
   - Test-rule_001
